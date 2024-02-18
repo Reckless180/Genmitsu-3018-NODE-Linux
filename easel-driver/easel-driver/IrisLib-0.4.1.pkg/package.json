@@ -1,0 +1,35 @@
+{
+  "name": "Iris",
+  "version": "0.4.1",
+  "iris": {
+    "abilities": {
+      "detectPorts": true,
+      "uploadFirmware": true,
+      "zProbe": true,
+      "machineBuildInfo": true,
+      "realTimeCommands": true,
+      "newStyleStatusMessages": true,
+      "feedRateOverride": true,
+      "spindleSpeedOverride": true
+    }
+  },
+  "scripts": {
+    "dev": "node iris.js 1339 easel.test:80",
+    "devDocker": "node iris.js 1339 easel.inventableslocalhost.com:80 easel.inventableslocalhost.com:443",
+    "production": "node iris.js",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "serialport": "^9.2.8",
+    "socket.io": "^1.4.8"
+  },
+  "engines": {
+    "node": ">=6.9.4"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "sinon": "^7.1.1",
+    "sinon-chai": "^3.2.0"
+  }
+}

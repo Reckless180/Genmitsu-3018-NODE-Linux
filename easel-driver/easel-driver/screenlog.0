@@ -1,0 +1,12 @@
+2024-02-17T17:25:07.430Z iris.js [id=0] Starting Easel Driver 0.4.1
+2024-02-17T17:25:07.445Z Machine [id=3] Resetting
+2024-02-17T17:25:07.568Z iris.js [id=0] Listening on port 1438 for secure connections from easel.inventables.com:80 easel.inventables.com:443 easelstaging.inventables.com:80 easelstaging.inventables.com:443 easel.invinternal.com:443 easel-secure.inventables.com:443 easel-insecure.inventables.com:80
+2024-02-17T17:25:07.577Z iris.js [id=0] Listening on port 1338 for connections from easel.inventables.com:80 easel.inventables.com:443 easelstaging.inventables.com:80 easelstaging.inventables.com:443 easel.invinternal.com:443 easel-secure.inventables.com:443 easel-insecure.inventables.com:80
+2024-02-17T17:25:10.153Z Websocket Controller [id=5] Client connected via polling
+2024-02-17T17:25:10.361Z Websocket Controller [id=5] Client transport changed to websocket
+"PortInfo.comName" has been deprecated. You should now use "PortInfo.path". The property will be removed in the next major release.
+2024-02-17T17:25:23.162Z Machine [id=3] Client disconnected (0 remaining)
+2024-02-17T17:25:25.185Z Websocket Controller [id=5] Client connected via polling
+2024-02-17T17:25:25.312Z Websocket Controller [id=4] Client connected via polling
+2024-02-17T17:25:25.407Z Websocket Controller [id=5] Client transport changed to websocket
+^C

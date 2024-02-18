@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<installer-gui-script minSpecVersion="1">
+    <pkg-ref id="com.inventables.iris-node">
+        <bundle-version/>
+    </pkg-ref>
+    <pkg-ref id="com.inventables.iris-lib">
+        <bundle-version/>
+    </pkg-ref>
+    <pkg-ref id="com.inventables.iris-daemon">
+        <bundle-version/>
+    </pkg-ref>
+    <options customize="never" require-scripts="false"/>
+    <choices-outline>
+        <line choice="default">
+            <line choice="com.inventables.iris-node"/>
+            <line choice="com.inventables.iris-lib"/>
+            <line choice="com.inventables.iris-daemon"/>
+        </line>
+    </choices-outline>
+    <choice id="default"/>
+    <choice id="com.inventables.iris-node" visible="false">
+        <pkg-ref id="com.inventables.iris-node"/>
+    </choice>
+    <pkg-ref id="com.inventables.iris-node" version="0.4.1" onConclusion="none" installKBytes="78490">#IrisNode-0.4.1.pkg</pkg-ref>
+    <choice id="com.inventables.iris-lib" visible="false">
+        <pkg-ref id="com.inventables.iris-lib"/>
+    </choice>
+    <pkg-ref id="com.inventables.iris-lib" version="0.4.1" onConclusion="none" installKBytes="15328">#IrisLib-0.4.1.pkg</pkg-ref>
+    <choice id="com.inventables.iris-daemon" visible="false">
+        <pkg-ref id="com.inventables.iris-daemon"/>
+    </choice>
+    <pkg-ref id="com.inventables.iris-daemon" version="0.4.1" onConclusion="none" installKBytes="1">#IrisDaemon-0.4.1.pkg</pkg-ref>
+    <product version="0.4.1"/>
+</installer-gui-script>
